@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+nav {
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #562EFF;
+    padding: 0 285px;
+}
+
+.branding {
+    display: flex;
+    gap: 16px;
+}
+
+.branding-logo {
+    width: 41px;
+    height: 51px;
+}
+
+.branding p {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.profile-image-icon {
+    width: 80%;
+    height: 80%;
+}
+
+nav ul {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFF;
+}
+
+header {
+    background: #FFF;
+    max-width: 75vw;
+    margin: 0 auto;
+    padding: 0 80px;
+    margin-top: 36px;
+}
+
+
+/* .main-content {
+    display: flex;
+    flex-direction: row;
+} */
+
+.main-content h3 {
+    font-size: 24px;
+    color: #562EFF;
+    padding-bottom: 35px;
+    padding-top: 40px;
+}
+
+hr {
+    border: 2px solid #d1d1d1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.player-intro {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 40px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.profile-id {
+    width: 56px;
+    height: 56px;
+}
+
+.player-profile-intro {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+/* TOP BLOG PART OF HEADER  */
+
+.blog-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 26px;
+    column-gap: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.blog-point {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.blog-desc-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.blog-point h4 {
+    font-size: 24px;
+}
+
+.blog-point img {
+    width: 300px;
+}
+
+
+/* LATEST COURSE SECTION STYLING HERE WROTE  */
+
+.container-course-point {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course-point {
+    width: 253px;
+    height: 270px;
+    background: #e3e2e9;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.course-point img {
+    width: 100%;
+}
